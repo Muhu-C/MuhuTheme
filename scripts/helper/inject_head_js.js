@@ -1,5 +1,5 @@
 /**
- * Solitude
+ * MuhuTheme
  * inject is to head
  */
 

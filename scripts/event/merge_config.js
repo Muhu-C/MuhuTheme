@@ -5,7 +5,7 @@ hexo.extend.filter.register(
       site: {
         name: {
           class: "text",
-          custom: "Solitude",
+          custom: "MuhuTheme",
         },
         siteIcon: "/img/pwa/favicon.ico",
         icon: "icon",
@@ -21,7 +21,7 @@ hexo.extend.filter.register(
       hometop: {
         enable: false,
         banner: {
-          title: "Solitude",
+          title: "MuhuTheme · Adapted from Solitude",
           url: "A simple theme for Hexo",
           icon: null,
         },
@@ -44,7 +44,7 @@ hexo.extend.filter.register(
             sticker: "/img/happy-sticker.avif",
           },
           url: "/about/",
-          content1: "Solitude",
+          content1: "MuhuTheme",
           state: {
             morning: "Good Morning",
             noon: "Good Noon",
@@ -125,7 +125,7 @@ hexo.extend.filter.register(
         share: { enable: false, list: [] },
         footer: {
           enable: true,
-          desc: "The article from Solitude",
+          desc: "The article from MuhuTheme",
           button: {
             enable: true,
             name: "Learn More",

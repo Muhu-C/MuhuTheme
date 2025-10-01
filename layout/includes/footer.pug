@@ -75,16 +75,16 @@ mixin footerGroups()
               })
 
       //- 随机友链
-      //-+conditionalWrapper(theme.footer && theme.footer.randomlink)
-      //-  .footer-group
-      //-    .footer-title-group
-      //-      h3.footer-title= _p('footer.randomlink')
-      //-      button.random-friends-btn(
-      //-        onclick='randomLinksList()'
-      //-        title=_p('footer.randomlink')
-      //-      )
-      //-        +icon('fas fa-arrows-rotate')
-      //-    .footer-links#friend-links-in-footer
+      if theme.footer && theme.footer.randomlink
+        .footer-group
+          .footer-title-group
+            h3.footer-title= _p('footer.randomlink')
+            button.random-friends-btn(
+              onclick='randomLinksList()'
+              title=_p('footer.randomlink')
+            )
+              +icon('fas fa-arrows-rotate')
+          .footer-links#friend-links-in-footer
 
 //- 版权信息组件
 mixin copyrightInfo()
