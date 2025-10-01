@@ -1,0 +1,28 @@
+- const motto = site.data.about.motto
+- const expertise = site.data.about.expertise
+- const cause = site.data.about.cause
+
+if motto || expertise || cause
+    .author-content
+        if motto
+            .author-content-item.maxim
+                .author-content-item-tips= motto.title
+                span.maxim-title
+                    span= motto.prefix
+                    span= motto.content
+        if expertise
+            .author-content-item.buff
+                .author-content-item-tips= expertise.title
+                span.buff-title
+                    span
+                        | #{expertise.prefix}
+                        span.inline-word= expertise.specialist
+                    span
+                        | #{expertise.content}
+                        span.inline-word= expertise.level
+        if cause
+            .author-content-item.cause
+                .author-content-item-tips= cause.title
+                span.cause-title
+                    each content in cause.contents
+                        span.author-tag= content

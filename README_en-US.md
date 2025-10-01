@@ -1,12 +1,12 @@
-[English](README_en-US.md)丨简体中文丨[繁体中文](README_zh-Hant.md) 丨 [Español](README_es-ES.md)
+English 丨 [Español](README_es-ES.md) 丨 [简体中文](README.md)丨[繁体中文](README_zh-Hant.md)
 
 <div align="center">
 
 <img width="50%" style="margin-bottom: 2vh" src=".github/logo.avif" />
 
-一款优雅的 Hexo 主题，支持懒加载、PWA、Latex 以及多种评论系统。
+An elegant Hexo theme that supports lazy loading, PWA, Latex, and multiple comment systems.
 
-主题设计由 [@张洪 Heo](https://github.com/zhheo) 全权授权
+Theme design fully authorized by [@Zhang Hong Heo](https://github.com/zhheo)
 
 ![npm package](https://img.shields.io/npm/v/hexo-theme-solitude)
 ![license](https://img.shields.io/github/license/everfu/hexo-theme-solitude?color=FF5531)
@@ -23,51 +23,51 @@
 
 </div>
 
-## 特性
+## Features
 
-- 页面懒加载（Pjax）、图片懒加载（LazyLoad）、离线应用（PWA）
-- 评论(Twikoo、Waline、Valine、Artalk、Giscus)，支持双评论
-- 昼夜切换(ColorMode)
-- 灯箱(medium-zoom、fancybox)
-- 数学公式(Latex)
-- 特色页面：即刻短文、我的装备、在线工具、音乐馆、友链鱼塘、相册页、豆瓣页、弹幕留言页
-- 文章功能：AI 摘要、代码高亮
+- Page lazy loading (Pjax), image lazy loading (LazyLoad), offline application (PWA)
+- Comments (Twikoo, Waline, Valine, Artalk, Giscus), supports dual comments
+- Day and night switch (ColorMode)
+- Lightbox (medium-zoom, fancybox)
+- Mathematical formulas (Latex)
+- Featured pages: Instant articles, My gear, Online tools, Music hall, Friend links, Album page, Douban page, Bullet screen message page
+- Article features: AI summary, code highlighting
 
-> 如有问题请提 [issue](https://github.com/everfu/hexo-theme-solitude/issues)
+> If you have any questions, please raise an [issue](https://github.com/everfu/hexo-theme-solitude/issues)
 
-## 应用
+## Application
 
-1. 使用 NPM 包进行安装
+1. Install using the NPM package
 
    ```bash
    npm i hexo-theme-solitude
    ```
 
-2. 应用主题
+2. Apply the theme
 
    ```yaml
    theme: solitude
    ```
 
-前往 [文档](https://solitude.js.org/) 获取更多信息。
+Visit [Documentation](https://solitude.js.org/) for more information.
 
-## 社区
+## Community
 
 [![Discord](https://img.shields.io/discord/1266610921942548553?logo=discord&label=discord&logoColor=white)](https://discord.gg/HZXAnK4Sut)
-[![QQ 群](https://img.shields.io/badge/QQ%20群-948375336-FFD700?logo=Tencent-QQ&logoColor=white)](https://qm.qq.com/q/mxfomMvJPG)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-948375336-FFD700?logo=Tencent-QQ&logoColor=white)](https://qm.qq.com/q/mxfomMvJPG)
 
-## 赞助商
+## Sponsors
 
 <a href="https://edgeone.ai/zh?from=github">
    <img src="./.github/edgeone.avif" width="250">
 </a>
 
-[本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助](https://edgeone.ai/zh?from=github)
+[The CDN acceleration and security protection of this project are sponsored by Tencent EdgeOne](https://edgeone.ai/zh?from=github)
 
-## 版权
+## License
 
-> 二次创作请保留主题版权信息
+> Please retain the theme copyright information
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvalor-x%2Fhexo-theme-solitude.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvalor-x%2Fhexo-theme-solitude?ref=badge_large)
 
-[Apache-2.0](./LICENSE) License &copy; 2025-至今 [伍十七](https://github.com/everfu)
+[Apache-2.0](./LICENSE) License &copy; 2025-present [everfu](https://github.com/everfu)

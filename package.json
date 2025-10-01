@@ -1,0 +1,32 @@
+{
+  "name": "hexo-theme-muhutheme",
+  "version": "1.0.0",
+  "description": "A beautiful, powerful, and efficient Hexo theme originally developed by everfu and edited by mc118cn.",
+  "main": "package.json",
+  "keywords": [
+    "hexo",
+    "theme",
+    "muhutheme",
+    "Card UI Design",
+    "@mc118cn",
+    "hexo-theme-muhutheme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/####################"
+  },
+  "dependencies": {
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/####################/issues",
+    "email": "o@efu.me"
+  },
+  "homepage": "https://muhutheme.mc118cn.cn",
+  "author": "Hexo-Theme-MuhuTheme<o@efu.me>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
