@@ -21,9 +21,8 @@
     else
       padding-left 15px
 
-  +maxWidth1199()
-    .card-widget:not(#card-toc)
-      display: none
+  +maxWidth1200()
+    display: none
 
   .card-widget
     border-radius var(--radius)
@@ -241,8 +240,9 @@
   a
     color var(--efu-fontcolor)
     padding 0 .3rem
-    font-size .7rem
-    border-radius 8px
+    font-size .7125rem
+    font-weight 500
+    border-radius 6px
     transition .3s
 
     &:hover
@@ -506,6 +506,8 @@ if hexo-config('comment.newest_comment.enable')
     background var(--efu-main)
 
 #card-widget-calendar 
+  +maxWidth1200()
+    display: none
   border-radius var(--radius)
   background var(--efu-card-bg)
   box-shadow var(--efu-shadow-black)
