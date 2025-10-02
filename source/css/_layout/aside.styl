@@ -241,7 +241,7 @@
   a
     color var(--efu-fontcolor)
     padding 0 .3rem
-    font-size .8rem
+    font-size .7rem
     border-radius 8px
     transition .3s
 
@@ -504,3 +504,103 @@ if hexo-config('comment.newest_comment.enable')
 
   &:hover
     background var(--efu-main)
+
+#card-widget-calendar 
+  border-radius var(--radius)
+  background var(--efu-card-bg)
+  box-shadow var(--efu-shadow-black)
+  border var(--style-border)
+  user-select none
+  .card-content
+    display: flex !important
+    flex-direction: row !important
+    width: 100% !important
+    min-height: 100px
+
+.calendar-container
+  display: flex
+  width: 100%
+  gap: 0px
+  align-items: stretch
+
+#calendar-area-left 
+  flex: 0 0 45%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  position: relative
+
+#calendar-area-right 
+  flex: 0 0 55%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: flex-start
+
+#calendar-area-left .left-content
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 100%
+  padding: 10px 0 10px 10px
+
+#calendar-week 
+  font-size: 14px
+  font-weight: 700
+  text-align: center
+  white-space: nowrap
+
+#calendar-date 
+  font-size: 64px
+  font-weight: 700
+  color: var(--efu-main)
+  text-align: center
+  line-height: 0.9
+  margin: 5px 0
+
+#calendar-solar, #calendar-lunar 
+  font-size: 11px
+  text-align: center
+  width: 100%
+  .first-child 
+    margin 5px 0 0 0
+
+#calendar-solar 
+  font-weight: 400
+
+#calendar-lunar 
+  color: var(--efu-secondtext)
+
+#calendar-area-right .right-content
+  width: 100%
+  padding: 10px 10px 10px 0
+
+#calendar-main 
+  width: 100%
+  font-size: 12px
+
+.calendar-r0, .calendar-r1, .calendar-r2, .calendar-r3, .calendar-r4, .calendar-r5, .calendar-rh 
+  display: flex
+  width: 100%
+
+.calendar-d0, .calendar-d1, .calendar-d2, .calendar-d3, .calendar-d4, .calendar-d5, .calendar-d6 
+  flex: 0.5
+  text-align: center
+
+#calendar-main a.now 
+  background: var(--efu-main) !important
+  color: var(--efu-card-bg) !important
+  border-radius: 50% !important
+  font-weight: bold !important
+
+#calendar-main .calendar-d0 a.now, #calendar-main .calendar-d1 a.now, #calendar-main .calendar-d2 a.now, #calendar-main .calendar-d3 a.now, #calendar-main .calendar-d4 a.now, #calendar-main .calendar-d5 a.now, #calendar-main .calendar-d6 a.now 
+  background: var(--efu-main)
+  border-radius: 50% 
+  width: 24px 
+  height: 24px 
+  display: flex 
+  align-items: center 
+  justify-content: center 
+  margin: 0 -1.5px

@@ -114,7 +114,7 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about"
+    noSticky: "about,calendar"
     Sticky: "allInfo"
   post: # on the article page
     noSticky: "about"
@@ -133,7 +133,7 @@ aside:
       img: /img/avatar.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 只有迎风，风筝才能飞得更高。
+    description: 感谢您的访问！
     # 内容 / Content
     content: # 这是我的博客 / This is my Blog
       - MC118CN 的博客网站<br/>欢迎来到我的博客网站！<br/>本人是一名高中生<br/>本网站会分享一些编程、学习（教程）以及日常生活内容
@@ -341,7 +341,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: true
+  universe: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -654,7 +654,7 @@ highlight:
   # default: 默认 / mac : 苹果终端
   theme: default
   # default / solidity / dracula
-  color: dracula
+  color: solidity
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -740,7 +740,11 @@ extends:
   # 插入到 head
   head:
     - <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    #- <script src="/js/calendar.js"></script>
+    - <script src="/js/chinese_lunar.js"></script>
+    #s- <link rel="stylesheet" href="/css/calendar.css">
 
+    
     # KaTeX
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
     - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
