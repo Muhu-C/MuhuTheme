@@ -126,7 +126,7 @@ aside:
   position: 0 # Sidebar positioning(0: left 1: right)
 
   # --------------------------- start ---------------------------
-  # Information card
+  # Information zone
   # 信息卡
   my_card:
     author:
