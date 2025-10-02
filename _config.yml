@@ -112,7 +112,7 @@ aside:
   # 值: about(信息卡), newestPost(最新文章), allInfo(网站信息), newest_comment(最新评论)
 
   # Sticky: Fixed position / noSticky: Not fixed position
-  # Sticky: 固定位置 / noSticky: 不固定位置
+  # Sticky: 不随页面滚动离开画面 / noSticky: 不固定位置
   home: # on the homepage
     noSticky: "about,calendar"
     Sticky: "allInfo"
@@ -127,11 +127,11 @@ aside:
 
   # --------------------------- start ---------------------------
   # Information zone
-  # 信息卡
+  # 信息区域
   my_card:
     author:
-      img: /img/avatar.png # url
-      sticker: # url, 24x24 size
+      img: /img/avatar.png # url, 头像
+      sticker: # url, 24x24 size, 状态
     # 介绍 / Introduction
     description: 感谢您的访问！
     # 内容 / Content
@@ -182,11 +182,11 @@ aside:
     postcount: true
     # Total number of words
     # 总字数
-    wordcount: false
+    wordcount: true
     # PV
-    pv: true
+    pv: false
     # UV
-    uv: true
+    uv: false
     # Last update date
     # 最后更新日期
     updatetime: true
@@ -699,7 +699,7 @@ OpenGraph:
 # 字数统计
 # warning: Please install the hexo-wordcount plugin first.
 # 警告: 请先安装 hexo-wordcount 插件。
-wordcount: false
+wordcount: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -740,17 +740,14 @@ extends:
   # 插入到 head
   head:
     - <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
-    #- <script src="/js/calendar.js"></script>
     - <script src="/js/chinese_lunar.js"></script>
-    #s- <link rel="stylesheet" href="/css/calendar.css">
-
     
     # KaTeX
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
     - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
     - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
     # Umami
-    - <script defer src="https://umami-api.mc118cn.cn/script.js" data-website-id="c8c91670-70c3-4e56-a53e-63996d7e73d5"></script>
+    - <script defer src="https://umami.mc118cn.cn/script.js" data-website-id="c5d5834f-a990-455c-822b-49316326702b"></script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body
@@ -806,7 +803,7 @@ comment:
   # 最新评论(⚠️ 需要先配置评论)
   newest_comment:
     enable: true
-    storage: .5 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
+    storage: .2 # 缓存时间 1: 1天 / .5 : 半天 / Cache time 1: 1 day .5 : half a day
     limit: 5 # 评论数 / Number of comments
 # Twikoo: https://solitude.js.org/configuration/comment/twikoo
 twikoo: # https://twikoo.js.org/
