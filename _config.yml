@@ -100,7 +100,9 @@ hometop:
     sup: 木沪时间表 —— 一款时间计划软件
     title: DateTimer 2
     url: https://github.com/Muhu-C/DateTimer2/
-    img: https://socialify.git.ci/Muhu-C/DateTimer2/image?font=KoHo&language=1&logo=https%3A%2F%2Fblog.mc118cn.cn%2Fimg%2FDateTimer.svg&name=1&owner=1&pattern=Floating+Cogs&stargazers=1&theme=Dark
+    img: https://socialify.git.ci/Muhu-C/DateTimer2/image?font=KoHo&language=1&name=1&owner=1&pattern=Floating+Cogs&stargazers=1&theme=Dark
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="640" />
     color: "#0000"
 # --------------------------- end ---------------------------
 
