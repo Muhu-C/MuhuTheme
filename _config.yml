@@ -81,7 +81,7 @@ hometop:
       - 一位普通的高中生
     icon:
       HTML: # name
-        img: https:////s1.chu0.com/src/img/png/5d/5db2bb2b9f1846abac8e6e8496e7d5d8.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=1srnZGLKZ0Aqlz6dk7yF4SkiYf4eP-YrEOdM1sob:MrZ9pZcFGS2hm3AQDFrNaBK5VF4= # url
+        img: https://s1.chu0.com/src/img/png/5d/5db2bb2b9f1846abac8e6e8496e7d5d8.png?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=1srnZGLKZ0Aqlz6dk7yF4SkiYf4eP-YrEOdM1sob:MrZ9pZcFGS2hm3AQDFrNaBK5VF4= # url
         color: "#fff" # color
       CSharp:
         img: https://learn.microsoft.com/zh-cn/dotnet/media/logo_csharp.png
@@ -100,7 +100,7 @@ hometop:
     sup: 木沪时间表 —— 一款时间计划软件
     title: DateTimer 2
     url: https://github.com/Muhu-C/DateTimer2/
-    img: https://socialify.git.ci/Muhu-C/DateTimer2/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FMuhu-C%2FDateTimer%2Frefs%2Fheads%2Fmaster%2FImage%2Fdatetimer.svg&name=1&owner=1&pattern=Brick+Wall&stargazers=1&theme=Auto
+    img: https://socialify.git.ci/Muhu-C/DateTimer2/image?font=KoHo&language=1&logo=https%3A%2F%2Fblog.mc118cn.cn%2Fimg%2FDateTimer.svg&name=1&owner=1&pattern=Floating+Cogs&stargazers=1&theme=Dark
     color: "#0000"
 # --------------------------- end ---------------------------
 
