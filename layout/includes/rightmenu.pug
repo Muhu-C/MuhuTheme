@@ -65,6 +65,7 @@ div#rightMenu
             i.solitude.fas.fa-circle-half-stroke
             case theme.display_mode.type
                 when 'auto'
+                    span.menu-darkmode-text= `NONE`
                 when 'light'
                     span.menu-darkmode-text= _p('right_menu.light')
                 when 'dark'

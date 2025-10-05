@@ -1,13 +1,12 @@
 {
   "name": "hexo-theme-muhutheme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A beautiful, powerful, and efficient Hexo theme originally developed by everfu and edited by mc118cn.",
   "main": "package.json",
   "keywords": [
     "hexo",
     "theme",
     "muhutheme",
-    "Card UI Design",
     "@mc118cn",
     "hexo-theme-muhutheme"
   ],

@@ -43,6 +43,14 @@ if theme.brevity.enable
                                     .bber-info-time
                                         i.solitude.fas.fa-calendar-day
                                         time.datetime(datetime=moment(item.date).format())
+                                    if item.show_in_home === false
+                                        .bber-info-status
+                                            i.solitude.fas.fa-eye-slash
+                                            span 即刻短文
+                                    else
+                                        .bber-info-status
+                                            i.solitude.fas.fa-eye
+                                            span 顶栏公告
                                     if item.location
                                         .bber-info-location
                                             i.solitude.fas.fa-location-dot

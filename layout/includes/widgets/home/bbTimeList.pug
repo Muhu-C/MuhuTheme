@@ -2,7 +2,8 @@
     i.bber-logo.solitude.fas.fa-newspaper(onclick=`pjax.loadUrl('${url_for(theme.brevity.page)}')`)
     .swiper-container.swiper-no-swiping.swiper-container-initialized.swiper-container-vertical.swiper-container-pointer-events#bbtalk(tabindex="-1" onclick=`pjax.loadUrl('${url_for(theme.brevity.page)}')`)
         .swiper-wrapper#bber-talk
-            each item, i in site.data.brevity.slice(0, 10)
+            - let homeBrevity = site.data.brevity.filter(item => { return item.show_in_home !== false })
+            each item, i in homeBrevity
                 .li-style.swiper-slide
                     | #{item.content.replace(/<[^>]*>/g, '')}
                     if item.image
